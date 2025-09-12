@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Page title dynamically set from Markdown front matter -->
+  <title>{{ page.title }} - PB Website</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Internal CSS for basic styling (overrides or defaults) -->
+  <style>
+    /* Reset margin and set default font for the entire page */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header / top banner */
+    header {
+      /* Background image (replace with your Canva design later) */
+      background: url('/assets/images/header-bg.png') no-repeat center/cover;
+      color: white;              /* Text color inside header */
+      padding: 40px 20px;        /* Space around content */
+      text-align: center;        /* Center the header content */
+    }
+
+    /* Navigation bar styling */
+    nav {
+      background-color: #333;    /* Dark background for nav */
+    }
+
+    /* Navigation list (ul) */
+    nav ul {
+      list-style-type: none;     /* Remove bullet points */
+      margin: 0;                 /* Remove default margin */
+      padding: 0;                /* Remove default padding */
+      overflow: hidden;          /* Clear floats if any */
+      display: flex;             /* Arrange items in a row */
+      justify-content: center;   /* Center the nav items */
+    }
+
+    /* Each navigation item (li) */
+    nav li {
+      margin: 0 20px;            /* Horizontal spacing between items */
+    }
+
+    /* Navigation links (a) */
+    nav a {
+      display: block;            /* Make link clickable for whole area */
+      color: white;              /* Link text color */
+      text-align: center;        /* Center text inside the link */
+      padding: 14px 16px;        /* Space inside each link */
+      text-decoration: none;     /* Remove underline */
+      font-weight: bold;         /* Make text bold */
+    }
+
+    /* Hover effect for nav links */
+    nav a:hover {
+      background-color: #555;    /* Change background on hover */
+    }
+
+    /* Main content area */
+    main {
+      padding: 20px;             /* Space around main content */
+      max-width: 900px;          /* Limit content width */
+      margin: auto;              /* Center the content horizontally */
+    }
+
+    /* Footer styling */
+    footer {
+      text-align: center;        /* Center text */
+      padding: 20px;             /* Space inside footer */
+      background-color: #f2f2f2; /* Light grey background */
+      margin-top: 40px;          /* Space above footer */
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with image above navigation -->
+  <header>
+    <!-- Canva / header image -->
+    <img src="/assets/images/header-image.png" alt="Header Image"
+         style="width:100%; max-height:250px; object-fit:cover; display:block;">
+
+    <!-- Site title -->
+    <h1>PB Website</h1>
+    <p>Optional tagline or logo can go here</p>
+  </header>
+
+  <!-- Navigation panel -->
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main page content (from Markdown) -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Priya</p>
+  </footer>
+</body>
+</html>
