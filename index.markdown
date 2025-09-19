@@ -3,26 +3,16 @@ layout: home
 title: Home
 ---
 
-# Welcome
-
-Hello! I’m Priya.  
-This is my personal website where I will share my projects, ideas, and more.
-
-## Featured Articles
-
-### Lise Meitner: The Austrian Marie Curie Behind Nuclear Fission
-![Lise Meitner](assets/images/lise-meitner.png)
-A story covering the life of Lise Meitner and her contributions to nuclear physics- published on the Scientista foundation blog.  
-[Read more](http://www.scientistafoundation.com/discovher-science/lise-meitner-the-austrian-marie-curie-behind-nuclear-fission)
-
-### Medium Articles
-![Medium](assets/images/medium-placeholder.png)
-Check out my other articles for the Medium publication- Predict, written mostly during my undergraduate years.
-[Read more](https://medium.com/@pnbinwal)
-
-
-## Why 3AM?
-
-Partly because the name sounded like a really good one when it first occurred to me at 4(and not 3)AM in the morning. Partly because 3AM stands for An Article A Month. 
-
 ![Profile Picture](/assets/images/profile-pic.png)
+
+# If you have stumbled upon this corner of the web, welcome!
+
+The world we inhabit is a paradox. It's so big that you will never see all of it, yet so small that you can hop on a flight and [travel around it once in a little under 2 days.](https://www.britannica.com/science/How-Long-Does-It-Take-to-Fly-Around-the-World){:target="_blank" rel="noopener noreferrer}. It is old- older than human history by several orders of magnitude, yet to the best of our knowledge, the earth itself has been aorund for at most one-third the time [since the universe came into existence.](https://science.nasa.gov/universe/overview/){:target="_blank" rel="noopener noreferrer"}
+
+We build sprawling cities, the testaments to human progress, yet at the time of writing, [over 3 billion people](https://ourworldindata.org/urbanization){:target="_blank" rel="noopener noreferrer"} live in rural areas. We grow enough food to feed all of human population, yet every year, hundreds of millions [face hunger and undernourishment](https://www.who.int/news/item/28-07-2025-global-hunger-declines-but-rises-in-africa-and-western-asia-un-report){:target="_blank" rel="noopener noreferrer"}
+
+The world we inhabit is a paradox, our lives more so.
+
+This website is an endeavour from an ignorant human trying to make sense of it all. 
+
+To read more [The 3 AM Page](/3am/){:target="_blank"}.
