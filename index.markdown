@@ -1,11 +1,11 @@
 ---
 layout: home
 title: Home
+header_image: /assets/images/home_header.png
 ---
 
-![Profile Picture](/assets/images/profile-pic.png)
+# If you have stumbled upon this corner of the web— Welcome!
 
-# If you have stumbled upon this corner of the web, welcome!
 
 The world we inhabit is a paradox. It's so big that you will never see all of it, yet so small that you can hop on a flight and [travel around it once in a little under 2 days.](https://www.britannica.com/science/How-Long-Does-It-Take-to-Fly-Around-the-World){:target="_blank" rel="noopener noreferrer}. It is old- older than human history by several orders of magnitude, yet to the best of our knowledge, the earth itself has been aorund for at most one-third the time [since the universe came into existence.](https://science.nasa.gov/universe/overview/){:target="_blank" rel="noopener noreferrer"}
 
@@ -15,4 +15,4 @@ The world we inhabit is a paradox, our lives more so.
 
 This website is an endeavour from an ignorant human trying to make sense of it all. 
 
-To read more [The 3 AM Page](/3am/){:target="_blank"}.
+To read more, visit [The 3 AM Page](/3am/){:target="_blank"}.

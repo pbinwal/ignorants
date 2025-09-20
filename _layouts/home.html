@@ -8,107 +8,120 @@
   <!-- Link to external CSS file -->
   <link rel="stylesheet" href="/assets/css/style.css">
 
-  <!-- Internal CSS for basic styling (overrides or defaults) -->
   <style>
-    /* Reset margin and set default font for the entire page */
+    /* Body styling: removes default margin and sets font for entire page */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
     }
 
-    /* Header / top banner */
+    
+
+    /* Header styling: text alignment and padding */
     header {
-      /* Background image (replace with your Canva design later) */
-      background: url('/assets/images/header-bg.png') no-repeat center/cover;
-      color: white;              /* Text color inside header */
-      padding: 40px 20px;        /* Space around content */
-      text-align: center;        /* Center the header content */
+      text-align: center;        /* Centers content inside header */
+      padding-bottom: 0;         /* Space below header content (currently 0) */
+      padding-top: 20px;         /* Space above header content */
+      padding-left: 0;           /* No left padding */
+      padding-right: 0;          /* No right padding */
     }
 
-    /* Navigation bar styling */
+    /* Navigation bar container */
     nav {
-      background-color: #333;    /* Dark background for nav */
+      background-color: #000000; /* Tab background colour */
     }
 
-    /* Navigation list (ul) */
+    /* Navigation list (ul) styling */
     nav ul {
-      list-style-type: none;     /* Remove bullet points */
+      list-style-type: none;     /* Remove bullets from list */
       margin: 0;                 /* Remove default margin */
       padding: 0;                /* Remove default padding */
-      overflow: hidden;          /* Clear floats if any */
-      display: flex;             /* Arrange items in a row */
-      justify-content: center;   /* Center the nav items */
+      display: flex;             /* Display items in a row */
+      justify-content: center;   /* Center the list horizontally */
     }
 
-    /* Each navigation item (li) */
+    /* Individual navigation list item (li) spacing */
     nav li {
-      margin: 0 20px;            /* Horizontal spacing between items */
+      margin: 0 20px;            /* Horizontal space between tabs */
     }
 
-    /* Navigation links (a) */
+    /* Navigation link (a) styling */
     nav a {
-      display: block;            /* Make link clickable for whole area */
-      color: white;              /* Link text color */
-      text-align: center;        /* Center text inside the link */
-      padding: 14px 16px;        /* Space inside each link */
+      display: block;            /* Make the clickable area cover the whole tab */
+      color: white;              /* Text color of tab */
+      text-align: center;        /* Center text inside tab */
+      padding: 14px 16px;        /* Space inside tab */
       text-decoration: none;     /* Remove underline */
       font-weight: bold;         /* Make text bold */
     }
 
-    /* Hover effect for nav links */
+    /* Navigation link hover effect */
     nav a:hover {
-      background-color: #555;    /* Change background on hover */
+      background-color: #555;    /* Background color when hovering over tab */
     }
 
-    /* Main content area */
+    /* Main content area styling */
     main {
       padding: 20px;             /* Space around main content */
-      max-width: 900px;          /* Limit content width */
+      max-width: 900px;          /* Maximum width of content */
       margin: auto;              /* Center the content horizontally */
+      color: #000000;
+
+      font-family: Georgia, "Times New Roman", serif; /* choose readable font */
+      font-size: 18px;           /* size of text */
+      line-height: 1.6;          /* spacing between lines */
     }
 
+    main h1 {
+      
+      font-family: Georgia, "Times New Roman", serif; /* choose readable font */
+      font-size: 32px;           /* size of text */
+      line-height: 1.6;          /* spacing between lines */
+      color: #9e4d4d; /* main heading colour */
+    }
+  
     /* Footer styling */
     footer {
-      text-align: center;        /* Center text */
+      text-align: center;        /* Center text inside footer */
       padding: 20px;             /* Space inside footer */
-      background-color: #f2f2f2; /* Light grey background */
+      background-color: #f2f2f2; /* Light grey footer background */
       margin-top: 40px;          /* Space above footer */
     }
   </style>
 </head>
 <body>
-  <!-- Header with image above navigation -->
+  <!-- Header section -->
   <header>
-    <!-- Canva / header image -->
-    <img src="/assets/images/header-image.png" alt="Header Image"
-         style="width:100%; max-height:250px; object-fit:cover; display:block;">
-
-    <!-- Site title -->
-    <h1>PB Website</h1>
-    <p>Optional tagline or logo can go here</p>
+    {% if page.header_image %}
+      <!-- Header image (dynamic from page front matter) -->
+      <img src="{{ page.header_image }}" alt="Header Image"
+           style="width:100%; max-height:150px; object-fit:cover; display:block;">
+    {% endif %}
+    <!-- Page title and tagline (currently commented out) -->
+    <!-- <h1>PB Website</h1>
+    <p>Optional tagline or logo can go here</p> -->
   </header>
 
-  <!-- Navigation panel -->
+  <!-- Navigation section -->
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/science/">Science</a></li>
-      <li><a href="/fiction/">Fiction</a></li>
-      <li><a href="/ignorants/">IgnoRants</a></li>
-      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/">Home</a></li>           <!-- Home tab -->
+      <li><a href="/about.html">About</a></li> <!-- About tab -->
+      <li><a href="/science/">Science</a></li> <!-- Science tab -->
+      <li><a href="/fiction/">Fiction</a></li> <!-- Fiction tab -->
+      <li><a href="/ignorants/">IgnoRants</a></li> <!-- IgnoRants tab -->
+      <li><a href="/contact.html">Contact</a></li> <!-- Contact tab -->
     </ul>
   </nav>
 
-  <!-- Main page content (from Markdown) -->
+  <!-- Main page content (injected from Markdown) -->
   <main>
     {{ content }}
   </main>
 
-  <!-- Footer -->
+  <!-- Footer section -->
   <footer>
     <p>© 2025 Priya</p>
   </footer>
 </body>
 </html>
-
