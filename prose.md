@@ -34,7 +34,7 @@ permalink: /prose/
 
 {% for poem in poems %}
 <div class="prose-poem">
-  <h2><a href="{{ site.baseurl }}{{ poem.url }}">{{ poem.title }}</a></h2>
+  <h2><a href="{{ poem.url | relative_url }}">{{ poem.title }}</a></h2>
   <p class="poem-date">{{ poem.date | date: "%d %B %Y" }}</p>
 </div>
 {% endfor %}

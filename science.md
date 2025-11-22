@@ -34,13 +34,13 @@ permalink: /science/
 
   <!-- Post image -->
   <div style="text-align: left; margin: 20px 0;">
-    <img src="{{ site.baseurl }}{{ post.image }}" 
-         alt="{{ post.title }}" 
-         style="max-width: 200px; width: 50%; height: auto; border-radius: 8px;">
+    <img src="{{ post.image | relative_url }}" 
+        alt="{{ post.title }}" 
+        style="max-width: 200px; width: 50%; height: auto; border-radius: 8px;">
   </div>
 
   <!-- Post excerpt + Read more -->
-  {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" target="_blank" rel="noopener noreferrer">Read more</a>
+  {{ post.excerpt }} <a href="{{ post.url | relative_url }}" target="_blank" rel="noopener noreferrer">Read more</a>
 
 </div>
 {% endfor %}

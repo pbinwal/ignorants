@@ -13,11 +13,12 @@ permalink: /contact/
   </h1>
 
   <!-- Photo -->
-  <div style="text-align: center; margin-bottom: 30px;">
-    <img src="{{ site.baseurl }}/assets/images/PB_photo.jpg"
-     alt="Profile Photo"
-     style="width: 220px; height: auto; border-radius: 12px;">
-  </div>
+    <div style="text-align: center; margin-bottom: 30px;">
+    <img src="{{ '/assets/images/PB_photo.jpg' | relative_url }}"
+        alt="Profile Photo"
+        style="width: 220px; height: auto; border-radius: 12px;">
+    </div>
+
 
 <!-- Email -->
   <p style="text-align: center; font-size: 18px; color: #48474c; margin-bottom: 10px;">
