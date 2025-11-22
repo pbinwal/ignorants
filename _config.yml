@@ -24,15 +24,31 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# GitHub Pages settings
+# Set your repository name as baseurl if hosted at https://username.github.io/repo-name/
+baseurl: "/ignorants" # <-- use your repo name here
+url: "https://pbinwal.github.io" # <-- your GitHub Pages domain
+
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: pbinwal
 
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+# Collections
+collections:
+  anbhigya:
+    output: true
+    permalink: /anbhigya/:title/
+  prose:
+    output: true
+    permalink: /prose/:title/
+  science:
+    output: true
+
 
 # Collections
 collections:

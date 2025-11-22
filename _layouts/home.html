@@ -117,10 +117,10 @@
   <!-- Header section -->
   <header>
     {% if page.header_image %}
-      <!-- Header image (dynamic from page front matter) -->
-      <img src="{{ page.header_image }}" alt="Header Image"
-           style="width:100%; max-height:150px; object-fit:cover; display:block;">
+      <img src="{{ site.baseurl }}{{ page.header_image }}" alt="Header Image"
+          style="width:100%; max-height:150px; object-fit:cover; display:block;">
     {% endif %}
+
     <!-- Page title and tagline (currently commented out) -->
     <!-- <h1>PB Website</h1>
     <p>Optional tagline or logo can go here</p> -->

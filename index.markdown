@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-header_image: /assets/images/home_header.png
+header_image:  /assets/images/home_header.png
 ---
 
 # If you have stumbled upon this corner of the web— Welcome!
