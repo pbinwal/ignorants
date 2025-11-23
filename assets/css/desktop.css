@@ -1,0 +1,30 @@
+@media screen and (min-width: 1025px) {
+  .poem-container {
+    background-color: #000000ff;
+    color: #ffffffff;
+    min-height: 100vh;
+    padding: 50px 20px;
+    font-family: 'Noto Sans Devanagari', Georgia, serif;
+  }
+
+  .poem-title {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffffff;
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+
+  .poem-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 2;
+  }
+
+  .poem-date {
+    text-align: right;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+}

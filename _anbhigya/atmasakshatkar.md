@@ -4,20 +4,16 @@ title: आत्मसाक्षात्कार
 date: 2025-11-21
 ---
 
-<!-- Full page styling -->
-<div style="background-color: #000000ff; color: #ffffffff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
+<div class="poem-container">
+  <h1 class="poem-title">{{ page.title }}</h1>
 
-  <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #ffffffff; margin-bottom: 0px; font-size: 36px;">
-    {{ page.title }}
-  </h1>
-
-   <!-- Custom image below poem -->
+  <!-- Custom image below poem -->
   <div style="text-align: center; margin-top: 2px; margin-bottom: 20px;">
     <img src="{{ site.baseurl }}/assets/images/eyes.png"
         alt="Custom illustration" 
         style="max-width: 100px; width: 100%; height: auto; border-radius: 10px;">
   </div>
+
 
   <!-- Centered poem text -->
   <div style="text-align: center; font-size: 22px; line-height: 2;">
@@ -52,12 +48,9 @@ date: 2025-11-21
     और आत्मसाक्षात्कार हुआ |<br>
 
                           
-  </div>
+
   <!-- Date at the bottom, right -->
-    <p style="text-align: right; font-size: 20px; color: #ffffff; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
+  <p class="poem-date">
     — {{ page.date | date: "%-d" }} नवंबर, {{ page.date | date: "%Y" }}
-    </p>
-
- </div>
-
-    
+  </p>
+</div>

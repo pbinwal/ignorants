@@ -1,5 +1,21 @@
 @media screen and (max-width: 768px) {
-  /* Force mobile font sizes globally */
+  /* Navigation stacking */
+  nav ul {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  nav li {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  
+  nav a {
+    padding: 16px 20px !important;
+    border-bottom: 1px solid #333 !important;
+    font-size: 26px !important;
+  }
+  
   body {
     font-size: 24px !important;
   }
@@ -16,8 +32,19 @@
     font-size: 24px !important;
   }
   
-  nav a {
+  main {
+    padding: 15px !important;
+  }
+  
+  .poem-title {
+    font-size: 44px !important;
+  }
+
+  .poem-text {
+    font-size: 28px !important;
+  }
+
+  .poem-date {
     font-size: 26px !important;
   }
 }
-
