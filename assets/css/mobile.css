@@ -1,7 +1,5 @@
 @media screen and (max-width: 768px) {
-  body {
-    background-color: red !important;  /* Test - should turn red on mobile */
-  }
+ 
   nav ul {
     flex-direction: column !important;
     align-items: center !important;
@@ -60,6 +58,6 @@
   /* Remove body default white background */
   body {
     font-size: 34px !important;
-    background-color: transparent !important;
+    background-color: red !important;
   }
 }
