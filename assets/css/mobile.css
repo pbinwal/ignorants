@@ -13,38 +13,38 @@
   nav a {
     padding: 16px 20px !important;
     border-bottom: 1px solid #333 !important;
-    font-size: 26px !important;
+    font-size: 36px !important;
   }
   
   body {
-    font-size: 24px !important;
+    font-size: 34px !important;
   }
   
   h1 {
-    font-size: 42px !important;
+    font-size: 52px !important;
   }
   
   h2 {
-    font-size: 30px !important;
+    font-size: 40px !important;
   }
   
   p {
-    font-size: 24px !important;
+    font-size: 34px !important;
   }
   
   main {
-    padding: 15px !important;
+    padding: 25px !important;
   }
   
   .poem-title {
-    font-size: 44px !important;
+    font-size: 54px !important;
   }
 
   .poem-text {
-    font-size: 28px !important;
+    font-size: 38px !important;
   }
 
   .poem-date {
-    font-size: 26px !important;
+    font-size: 36px !important;
   }
 }
