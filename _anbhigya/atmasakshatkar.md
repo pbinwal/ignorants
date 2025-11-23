@@ -14,7 +14,7 @@ date: 2025-11-21
 
    <!-- Custom image below poem -->
   <div style="text-align: center; margin-top: 2px; margin-bottom: 20px;">
-    <img src="/assets/images/eyes.png" 
+    <img src="{{ site.baseurl }}/assets/images/eyes.png"
         alt="Custom illustration" 
         style="max-width: 100px; width: 100%; height: auto; border-radius: 10px;">
   </div>
