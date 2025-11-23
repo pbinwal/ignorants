@@ -1,8 +1,11 @@
 @media screen and (max-width: 1024px) {
   /* Bigger header image */
   header img {
-    max-height: 250px !important;  /* Increased from 150px */
-  }
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+    }
+
   
   /* Keep navigation horizontal, smaller font */
   nav a {
