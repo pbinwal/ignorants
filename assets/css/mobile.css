@@ -1,5 +1,7 @@
 @media screen and (max-width: 768px) {
-  /* Navigation stacking */
+  body {
+    background-color: red !important;  /* Test - should turn red on mobile */
+  }
   nav ul {
     flex-direction: column !important;
     align-items: center !important;
