@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  /* Force mobile font sizes globally */
+  body {
+    font-size: 18px !important;
+  }
+  
+  h1 {
+    font-size: 36px !important;
+  }
+  
+  h2 {
+    font-size: 24px !important;
+  }
+  
+  p {
+    font-size: 18px !important;
+  }
+  
+  nav a {
+    font-size: 20px !important;
+  }
+}
