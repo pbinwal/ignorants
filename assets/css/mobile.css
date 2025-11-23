@@ -1,63 +1,60 @@
-/* This should catch ALL screens */
-@media screen and (max-width: 1200px) {
-  body {
-    background-color: red !important;
-    font-size: 24px !important;
-  }
-
-  nav ul {
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-  
-  nav li {
-    margin: 0 !important;
-    width: 100% !important;
-  }
-  
+@media screen and (max-width: 768px) {
+  /* Keep navigation horizontal like desktop, just bigger */
   nav a {
-    padding: 20px 24px !important;
-    border-bottom: 1px solid #333 !important;
     font-size: 28px !important;
+    padding: 18px 20px !important;
   }
   
-  /* Body - combined rules */
+  /* Body - bigger font, no red */
   body {
     font-size: 24px !important;
-    background-color: red !important;  /* KEEP THIS TEST */
   }
   
-  /* Main - combined rules */
+  /* Main - keep desktop layout */
   main {
-    padding: 0 !important;
+    padding: 20px !important;
+    max-width: 900px !important;
     background-color: transparent !important;
-    max-width: 100% !important;
     font-size: 24px !important;
   }
   
-  /* Headings */
+  /* Headings - bigger */
   h1 {
-    font-size: 36px !important;
+    font-size: 40px !important;
   }
   
   h2 {
-    font-size: 28px !important;
+    font-size: 32px !important;
   }
   
   p {
     font-size: 24px !important;
   }
   
-  /* Poem styles */
+  /* Poem styles - bigger */
   .poem-title {
-    font-size: 38px !important;
+    font-size: 44px !important;
   }
 
   .poem-text {
-    font-size: 26px !important;
+    font-size: 28px !important;
+    line-height: 1.8 !important;
   }
 
   .poem-date {
+    font-size: 26px !important;
+  }
+  
+  /* List items bigger */
+  .anbhigya-poem {
     font-size: 24px !important;
+  }
+  
+  .anbhigya-poem h2 {
+    font-size: 32px !important;
+  }
+  
+  .anbhigya-poem .poem-date {
+    font-size: 20px !important;
   }
 }
