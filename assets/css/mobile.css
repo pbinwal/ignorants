@@ -1,8 +1,11 @@
 @media screen and (max-width: 1024px) {
   /* Bigger header image */
   header img {
-    max-height: 250px !important;  /* Increased from 150px */
-  }
+  max-height: 200px !important;
+  object-fit: cover !important;
+  object-position: center !important;  /* or try: center top, center bottom */
+  transform: scale(1.5) !important;  /* This zooms in - increase for more zoom */
+    }
   
   /* Keep navigation horizontal, smaller font */
   nav a {
