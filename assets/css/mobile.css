@@ -3,8 +3,11 @@
   header img {
   max-height: 200px !important;
   object-fit: cover !important;
-  object-position: center !important;  /* or try: center top, center bottom */
-  transform: scale(1.5) !important;  /* This zooms in - increase for more zoom */
+  object-position: center center !important;
+  width: 100% !important;
+  height: 200px !important;  /* Force specific height */
+  transform: scale(1.8) !important;
+  transform-origin: center center !important;
     }
   
   /* Keep navigation horizontal, smaller font */
