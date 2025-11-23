@@ -8,9 +8,9 @@ excerpt: "A short piece about Lise Meitner and her contributions to nuclear phys
 ---
 
 <div style="text-align: left; margin: 20px 0;">
-  <img src="{{ page.image }}" 
+  <img src="{{ site.baseurl }}{{ page.image }}" 
        alt="{{ page.title }}" 
-       style="max-width: 200px; width: 50%; height: auto; border-radius: 8px;">
+       style="max-width: 200px; width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 {{ page.excerpt }} <a href="{{ page.link }}" target="_blank" rel="noopener noreferrer">Read more</a>

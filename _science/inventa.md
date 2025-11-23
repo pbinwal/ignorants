@@ -8,7 +8,7 @@ excerpt: "An article on the addictive allure of social media written for Inventa
 ---
 
 <div style="text-align: left; margin: 20px 0;">
-  <img src="{{ page.image }}" 
+  <img src="{{ site.baseurl }}{{ page.image }}" 
        alt="{{ page.title }}" 
        style="max-width: 200px; width: 100%; height: auto; border-radius: 8px;">
 </div>
