@@ -14,7 +14,7 @@ date: 2025-07-21
 
    <!-- Custom image below poem -->
   <div style="text-align: center; margin-top: 2px; margin-bottom: 0px;">
-    <img src="{{ site.baseurl }}/assets/images/eyes.png" 
+    <img src="{{ site.baseurl }}/assets/images/flute.png" 
         alt="Custom illustration" 
         style="max-width: 150px; width: 20%; height: auto; border-radius: 10px;">
   </div>
