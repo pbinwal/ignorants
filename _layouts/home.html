@@ -13,110 +13,116 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css">
 
   <style>
-    /* Body styling: removes default margin and sets font for entire page */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
+  /* Body styling: removes default margin and sets font for entire page */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
 
-    
+  /* Header styling: text alignment and padding */
+  header {
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    /* Header styling: text alignment and padding */
-    header {
-      text-align: center;        /* Centers content inside header */
-      padding-bottom: 0;         /* Space below header content (currently 0) */
-      padding-top: 20px;         /* Space above header content */
-      padding-left: 0;           /* No left padding */
-      padding-right: 0;          /* No right padding */
-    }
+  /* Navigation bar container */
+  nav {
+    background-color: #000000;
+  }
 
-    /* Navigation bar container */
-    nav {
-      background-color: #000000; /* Tab background colour */
-    }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    /* Navigation list (ul) styling */
-    nav ul {
-      list-style-type: none;     /* Remove bullets from list */
-      margin: 0;                 /* Remove default margin */
-      padding: 0;                /* Remove default padding */
-      display: flex;             /* Display items in a row */
-      justify-content: center;   /* Center the list horizontally */
-    }
+  nav li {
+    margin: 0 20px;
+  }
 
-    /* Individual navigation list item (li) spacing */
-    nav li {
-      margin: 0 20px;            /* Horizontal space between tabs */
-    }
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-    /* Navigation link (a) styling */
-    nav a {
-      display: block;            /* Make the clickable area cover the whole tab */
-      color: white;              /* Text color of tab */
-      text-align: center;        /* Center text inside tab */
-      padding: 14px 16px;        /* Space inside tab */
-      text-decoration: none;     /* Remove underline */
-      font-weight: bold;         /* Make text bold */
-    }
+  nav a:hover {
+    background-color: #555;
+  }
 
-    /* Navigation link hover effect */
-    nav a:hover {
-      background-color: #555;    /* Background color when hovering over tab */
-    }
+  /* Main content area styling - NO font-size here */
+  main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    color: #000000;
+    background-color: transparent;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+  }
 
-    /* Main content area styling */
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-      color: #000000;
-      background-color: transparent;  /* ADD THIS LINE */
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 18px;
-      line-height: 1.6;
-    }
+  main h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    color: #0f327c;
+  }
 
-    main h1 {
-      
-      font-family: Georgia, "Times New Roman", serif; /* choose readable font */
-      font-size: 32px;           /* size of text */
-      line-height: 1.6;          /* spacing between lines */
-      color: #0f327c; /* main heading colour */
-    }
-  
-    /* Footer styling */
-    footer {
-      text-align: center;        /* Center text inside footer */
-      padding: 20px;             /* Space inside footer */
-      background-color: #f2f2f2; /* Light grey footer background */
-      margin-top: 40px;          /* Space above footer */
-    }
+  /* Footer styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+  }
 
-    /* Anbhigya Poem Styling */
+  /* Anbhigya Poem Styling */
   .anbhigya-poem {
-    font-family: "Noto Sans Devanagari", Georgia, serif; /* nice font for Hindi */
-    text-align: center;       /* center poem text */
-    margin: 30px 0;           /* space between poems */
-    line-height: 1.8;         /* spacing between lines */
-    font-size: 20px;          /* readable font size */
-    color: #333;              /* dark grey text */
+    font-family: "Noto Sans Devanagari", Georgia, serif;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1.8;
+    color: #333;
   }
 
   .anbhigya-poem h2 {
     margin-bottom: 5px;
-    color: #0f327c;           /* poem title color */
+    color: #0f327c;
     text-align: left;
   }
 
   .anbhigya-poem .poem-date {
-    font-size: 14px;
-    color: #666;              /* lighter color for date */
+    color: #666;
     text-align: left;
     margin-bottom: 10px;
   }
 
+  /* Desktop-only font sizes */
+  @media screen and (min-width: 769px) {
+    main {
+      font-size: 18px;
+    }
 
-  </style>
+    main h1 {
+      font-size: 32px;
+    }
+
+    .anbhigya-poem {
+      font-size: 20px;
+    }
+
+    .anbhigya-poem .poem-date {
+      font-size: 14px;
+    }
+  }
+</style>
 </head>
 <body>
   <!-- Header section -->
