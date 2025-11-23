@@ -42,13 +42,24 @@ plugins:
 collections:
   anbhigya:
     output: true
-    permalink: /ignorants/anbhigya/:title/
+    permalink: /anbhigya/:title/
   prose:
     output: true
-    permalink: /ignorants/prose/:title/
+    permalink: /prose/:title/
   science:
     output: true
 
+
+# Collections
+collections:
+  anbhigya:
+    output: true
+    permalink: /anbhigya/:title/
+  prose:
+    output: true
+    permalink: /prose/:title/
+  science:
+    output: true
 
 
 
