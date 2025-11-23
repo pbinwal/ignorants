@@ -8,12 +8,12 @@ date: 2025-06-14
 <div style="background-color: #000; color: #ffffffff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
   <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #ffffffff; margin-bottom: 50px; font-size: 36px;">
+  <h1 style="text-align: center; font-weight: bold; color: #ffffffff; margin-bottom: 50px;">
     {{ page.title }}
   </h1>
 
    <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     यमराज हँस रहे हैं — <br>
     <br>
     यह देखकर कि आज तू,<br>

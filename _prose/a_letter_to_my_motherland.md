@@ -13,7 +13,7 @@ date: 2018-10-01
   </h1>
 
   <!-- Centered poem text -->
-  <div style="text-align: left; font-size: 22px; line-height: 2;">
+  <div style="text-align: left; line-height: 2;">
     My Dear Mother India, <br>
     <br>
     I have seen you in fleeting glimpses. Women draped in electric coloured saris floating down the cramped streets of Ahmedabad and Jaipur. Their children trailing behind, shoving, pushing through the crowd to keep up and not get lost. <br>

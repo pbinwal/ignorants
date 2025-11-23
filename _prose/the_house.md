@@ -13,7 +13,7 @@ date: 2021-05-30
   </h1>
 
   <!-- Centered poem text -->
-  <div style="text-align: left; font-size: 22px; line-height: 2;">
+  <div style="text-align: left; line-height: 2;">
     The house stands deserted. It towers against the thick undergrowth that surrounds it— a solitary speck in a sea of green. I can tell that it’s falling apart. <br>
     <br>
     The bricks that make up the wall are crumbling— oozing orange blood that nobody would care to wipe. There’s a mound of rubble that used to be a shed before it came down crashing— weighed down with the guilt of having to witness the house that preceded it fall apart before its eyes.<br>

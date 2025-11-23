@@ -13,7 +13,7 @@ date: 2025-10-23
   </h1>
 
   <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     है कौन कुम्हार— कुछ पता नहीं , <br>
     किस आग तता, या तता नहीं ? <br>
     <br>

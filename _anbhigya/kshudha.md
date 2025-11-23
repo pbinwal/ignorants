@@ -13,7 +13,7 @@ date: 2025-01-14
   </h1>
 
   <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     तन की क्षुधा—<br>   
     सोने न दे,<br>    
     तो कहलाता वह,<br>    

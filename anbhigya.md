@@ -25,7 +25,7 @@ permalink: /anbhigya/
 <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0px;line-height:1;">
   अनभिज्ञ
 </h1>
-<p style="text-align: center; font-size: 20px; color: #48474cff; margin-bottom: 5px;line-height:1;">
+<p style="text-align: center; color: #48474cff; margin-bottom: 5px;line-height:1;">
   कविता संग्रह
 </p>
 

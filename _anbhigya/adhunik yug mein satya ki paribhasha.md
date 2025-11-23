@@ -13,7 +13,7 @@ date: 2025-10-22
   </h1>
 
   <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     जो पच गया– पूर्वाग्रहों के उदर में, वह सत्य है | <br>
     जो जच गया– उस धारणा को और मुखर कर, वह सत्य है | <br>
     <br>

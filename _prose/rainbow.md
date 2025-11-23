@@ -19,7 +19,7 @@ date: 2017-10-01
   </h2>
 
   <!-- Centered poem text -->
-  <div style="text-align: left; font-size: 22px; line-height: 2;">
+  <div style="text-align: left; line-height: 2;">
     
   The rainbow in the sky has two colours in it. <br>
   And one of them is— <i>not yellow</i>. <br>

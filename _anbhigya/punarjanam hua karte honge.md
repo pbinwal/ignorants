@@ -8,7 +8,7 @@ date: 2025-07-21
 <div style="background-color: #0c0062ff; color: #ffffffff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
   <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #ffffffff; margin-bottom: 0px; font-size: 36px;">
+  <h1 style="text-align: center; font-weight: bold; color: #ffffffff; margin-bottom: 0px;">
     {{ page.title }}
   </h1>
 
@@ -20,7 +20,7 @@ date: 2025-07-21
   </div>
 
   <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     पुनर्जन्म हुआ करते होंगे,<br>
     पर राधा बन, जनम इक ही होगा । <br>
     मगर क्या क्रंदन, और क्या विरह, <br>
