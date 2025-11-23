@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
- 
+  /* Navigation stacking */
   nav ul {
     flex-direction: column !important;
     align-items: center !important;
@@ -11,53 +11,48 @@
   }
   
   nav a {
-    padding: 16px 20px !important;
+    padding: 20px 24px !important;
     border-bottom: 1px solid #333 !important;
-    font-size: 36px !important;
+    font-size: 28px !important;
   }
   
+  /* Body - combined rules */
   body {
-    font-size: 34px !important;
+    font-size: 24px !important;
+    background-color: red !important;  /* KEEP THIS TEST */
   }
   
-  h1 {
-    font-size: 52px !important;
-  }
-  
-  h2 {
-    font-size: 40px !important;
-  }
-  
-  p {
-    font-size: 34px !important;
-  }
-  
-  main {
-    padding: 25px !important;
-  }
-  
-  .poem-title {
-    font-size: 54px !important;
-  }
-
-  .poem-text {
-    font-size: 38px !important;
-  }
-
-  .poem-date {
-    font-size: 36px !important;
-  }
-  
-  /* Make main transparent so poem backgrounds show through */
+  /* Main - combined rules */
   main {
     padding: 0 !important;
     background-color: transparent !important;
     max-width: 100% !important;
+    font-size: 24px !important;
   }
   
-  /* Remove body default white background */
-  body {
-    font-size: 34px !important;
-    background-color: red !important;
+  /* Headings */
+  h1 {
+    font-size: 36px !important;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  p {
+    font-size: 24px !important;
+  }
+  
+  /* Poem styles */
+  .poem-title {
+    font-size: 38px !important;
+  }
+
+  .poem-text {
+    font-size: 26px !important;
+  }
+
+  .poem-date {
+    font-size: 24px !important;
   }
 }
