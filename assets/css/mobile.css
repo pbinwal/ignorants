@@ -1,12 +1,6 @@
 @media screen and (max-width: 1024px) {
   /* Bigger header image */
-  header img {
-  width: 100% !important;
-  height: 350px !important;
-  object-fit: cover !important;
-    }
-
-  
+ 
   /* Keep navigation horizontal, smaller font */
   nav a {
     font-size: 30px !important;

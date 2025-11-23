@@ -145,22 +145,32 @@
     }
   }
 
-  .header-logo {
+
+  .header-logo-desktop {
     width: 100%;
     object-fit: cover;
     display: block;
     max-height: 150px;
   }
 
-  /* Mobile: zoom in on logo */
-  @media screen and (max-width: 768px) {
-    .header-logo {
-      max-height: none !important;
-      width: 150% !important;
-      margin-left: -25% !important;
-      object-fit: contain !important;
+  .header-logo-mobile {
+    display: none;
+  }
+
+  /* Mobile: show different logo */
+  @media screen and (max-width: 1024px) {
+    .header-logo-desktop {
+      display: none !important;
+    }
+    
+    .header-logo-mobile {
+      display: block !important;
+      width: 100% !important;
+      height: 350px !important;
+      object-fit: cover !important;
     }
   }
+  
 </style>
 
   <!-- Link to external CSS files - NOW AFTER the style block -->
@@ -174,7 +184,8 @@
   <!-- Header section -->
   <header>
     {% if page.header_image %}
-      <img src="{{ site.baseurl }}{{ page.header_image }}" alt="Header Image" class="header-logo">
+      <img src="{{ site.baseurl }}{{ page.header_image }}" alt="Header Image" class="header-logo header-logo-desktop">
+      <img src="{{ site.baseurl }}/assets/images/home_header_mobile.png" alt="Header Image" class="header-logo header-logo-mobile">
     {% endif %}
   </header>
 
