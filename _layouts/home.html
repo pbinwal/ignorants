@@ -6,7 +6,7 @@
   <title>{{ page.title }} - PB Website</title>
 
   <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
   <style>
     /* Body styling: removes default margin and sets font for entire page */
@@ -129,15 +129,14 @@
   <!-- Navigation section -->
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>           <!-- Home tab -->
-      <!-- <li><a href="/about.html">About</a></li> About tab -->
-      <li><a href="/science/">Science</a></li> <!-- Science tab -->
-      <li><a href="/prose/">Poetry and Prose</a></li> <!-- Prose tab -->
-      <li><a href="/anbhigya/">Anbhigya</a></li> <!-- Anbhigya tab -->
-      <li><a href="/ignorants/">IgnoRants</a></li> <!-- IgnoRants tab -->
-      <li><a href="/contact/">Contact</a></li> <!-- Contact tab -->
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      <li><a href="{{ site.baseurl }}/science/">Science</a></li>
+      <li><a href="{{ site.baseurl }}/prose/">Poetry and Prose</a></li>
+      <li><a href="{{ site.baseurl }}/anbhigya/">Anbhigya</a></li>
+      <!--<li><a href="{{ site.baseurl }}/ignorants/">IgnoRants</a></li> -->
+      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
     </ul>
-  </nav>
+</nav>
 
   <!-- Main page content (injected from Markdown) -->
   <main>
