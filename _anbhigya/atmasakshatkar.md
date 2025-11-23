@@ -20,7 +20,7 @@ date: 2025-11-21
   </div>
 
   <!-- Centered poem text -->
-  <div style="text-align: center; font-size: 22px; line-height: 2;">
+  <div style="text-align: center; line-height: 2;">
     एक कक्ष है, दो खिड़कियाँ, <br>
     उन पर टंगा एक आवरण, <br>
     पीछे खड़ा झाँके कोई, <br>

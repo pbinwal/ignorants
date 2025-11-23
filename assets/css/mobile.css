@@ -47,4 +47,17 @@
   .poem-date {
     font-size: 36px !important;
   }
+  
+  /* Make main transparent so poem backgrounds show through */
+  main {
+    padding: 0 !important;
+    background-color: transparent !important;
+    max-width: 100% !important;
+  }
+  
+  /* Remove body default white background */
+  body {
+    font-size: 34px !important;
+    background-color: transparent !important;
+  }
 }
