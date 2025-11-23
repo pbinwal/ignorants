@@ -1,4 +1,9 @@
 @media screen and (max-width: 1024px) {
+  /* Bigger header image */
+  header img {
+    max-height: 250px !important;  /* Increased from 150px */
+  }
+  
   /* Keep navigation horizontal, smaller font */
   nav a {
     font-size: 20px !important;

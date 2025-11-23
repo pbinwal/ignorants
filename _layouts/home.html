@@ -115,6 +115,10 @@
       font-size: 14px;
     }
   }
+
+  header img {
+  max-height: 150px;  /* Desktop default */
+  }
 </style>
 
   <!-- Link to external CSS files - NOW AFTER the style block -->
@@ -129,7 +133,7 @@
   <header>
     {% if page.header_image %}
       <img src="{{ site.baseurl }}{{ page.header_image }}" alt="Header Image"
-          style="width:100%; max-height:150px; object-fit:cover; display:block;">
+          style="width:100%; object-fit:cover; display:block;">
     {% endif %}
   </header>
 
