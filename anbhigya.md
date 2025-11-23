@@ -34,7 +34,7 @@ permalink: /anbhigya/
 
 {% for poem in poems %}
 <div class="anbhigya-poem">
-  <h2><a href="{{ poem.url }}">{{ poem.title }}</a></h2>
+  <h2><a href="{{ poem.url | relative_url }}">{{ poem.title }}</a></h2>
   <p class="poem-date">{{ poem.date | date: "%d %B %Y" }}</p>
 </div>
 {% endfor %}
