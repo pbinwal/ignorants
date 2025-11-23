@@ -113,54 +113,48 @@
 
   /* Mobile-friendly responsive design */
   @media screen and (max-width: 768px) {
-    /* Stack navigation vertically on mobile */
-    nav ul {
-      flex-direction: column;  /* Stack tabs vertically */
-      align-items: center;     /* Center them */
-    }
-    
-    nav li {
-      margin: 0;               /* Remove horizontal margins */
-      width: 100%;             /* Full width tabs */
-    }
-    
-    nav a {
-      padding: 12px 16px;      /* Adjust padding for touch targets */
-      border-bottom: 1px solid #333; /* Visual separator between tabs */
-    }
-    
-    /* Adjust main content padding */
-    main {
-      padding: 15px;           /* Less padding on mobile */
-      font-size: 16px;         /* Slightly smaller text */
-    }
-    
-    main h1 {
-      font-size: 28px;         /* Smaller headings */
-    }
-    
-    /* Adjust header padding */
-    header {
-      padding-top: 10px;
-    }
-    
-    /* Adjust poem styling for mobile */
-    .anbhigya-poem {
-      font-size: 18px;         /* Smaller font on mobile */
-      margin: 20px 0;
-    }
+  /* Stack navigation vertically on mobile */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-
-  /* Tablet size adjustments (optional) */
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    nav li {
-      margin: 0 10px;          /* Less spacing on tablets */
-    }
-    
-    main {
-      max-width: 700px;        /* Narrower content on tablets */
-    }
+  
+  nav li {
+    margin: 0;
+    width: 100%;
   }
+  
+  nav a {
+    padding: 16px 20px;      /* More padding for easier tapping */
+    border-bottom: 1px solid #333;
+    font-size: 18px;         /* Bigger nav font */
+  }
+  
+  /* Adjust main content padding */
+  main {
+    padding: 15px;
+    font-size: 18px;         /* Keep 18px or increase to 20px */
+  }
+  
+  main h1 {
+    font-size: 32px;         /* Larger headings - same as desktop */
+  }
+  
+  main h2 {
+    font-size: 24px;         /* Larger subheadings */
+  }
+  
+  /* Adjust header padding */
+  header {
+    padding-top: 10px;
+  }
+  
+  /* Adjust poem styling for mobile */
+  .anbhigya-poem {
+    font-size: 20px;         /* Keep readable size */
+    margin: 20px 0;
+  }
+}
   </style>
 </head>
 <body>
