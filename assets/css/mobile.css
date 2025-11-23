@@ -9,7 +9,7 @@
   
   /* Keep navigation horizontal, smaller font */
   nav a {
-    font-size: 20px !important;
+    font-size: 30px !important;
     padding: 14px 10px !important;
   }
   
@@ -19,47 +19,47 @@
   
   /* Body */
   body {
-    font-size: 32px !important;
+    font-size: 42px !important;
   }
   
   /* Main */
   main {
     padding: 20px !important;
     max-width: 100% !important;
-    font-size: 32px !important;
+    font-size: 42px !important;
   }
   
   /* Headings */
   h1 {
-    font-size: 48px !important;
+    font-size: 58px !important;
   }
   
   h2 {
-    font-size: 40px !important;
+    font-size: 50px !important;
   }
   
   /* Paragraphs and links */
   p, a {
-    font-size: 32px !important;
+    font-size: 42px !important;
   }
   
   /* Poem styles */
   .poem-title {
-    font-size: 52px !important;
+    font-size: 62px !important;
   }
 
   .poem-text {
-    font-size: 36px !important;
+    font-size: 46px !important;
     line-height: 1.8 !important;
   }
 
   .poem-date {
-    font-size: 32px !important;
+    font-size: 42px !important;
   }
   
   /* List items */
   .anbhigya-poem {
-    font-size: 32px !important;
+    font-size: 42px !important;
   }
   
   .anbhigya-poem h2 {
@@ -67,6 +67,6 @@
   }
   
   .anbhigya-poem .poem-date {
-    font-size: 28px !important;
+    font-size: 38px !important;
   }
 }
