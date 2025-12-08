@@ -26,6 +26,10 @@ contributor: Jayesh Bhatt
   <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
     Contributor: Jayesh Bhatt
   </p>
+  <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
+    Bereft of the world, when only the heart holds sway, 
+    Entanglement or abandon, what shall be the lover's way?
+  </p>
   <!-- Date at the bottom, right -->
   <p style="text-align: right; color: #000000; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
     — {{ page.date | date: "%-d" }} December, {{ page.date | date: "%Y" }}
