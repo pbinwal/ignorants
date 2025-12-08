@@ -28,7 +28,7 @@ contributor: Jayesh Bhatt
 
   <!-- Contributor info -->
   <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
-    Sketch by: Jayesh Bhatt
+    Illustration by: Jayesh Bhatt
   </p>
    <!-- Date at the bottom, right -->
   <p style="text-align: right; color: #000000; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
