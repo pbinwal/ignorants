@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Entangled 
-date: 2024-12-06
+date: 2025-12-06
 contributor: Jayesh Bhatt
 ---
 
