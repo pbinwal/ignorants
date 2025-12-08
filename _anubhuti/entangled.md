@@ -24,7 +24,7 @@ contributor: Jayesh Bhatt
 
   <!-- Contributor info -->
   <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
-    Contributor: Jayesh Bhatt
+    Artwork by: Jayesh Bhatt
   </p>
   <p style="text-align: right; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
     Bereft of the world, when only the heart holds sway, 
