@@ -47,6 +47,9 @@ collections:
   science:
     output: true
     permalink: /science/:title/
+  anubhuti:
+    output: true
+    permalink: /anubhuti/:title/
 
 
 # Exclude from processing.
