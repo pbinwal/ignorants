@@ -30,10 +30,10 @@ permalink: /anubhuti/
 
 <!-- Centered page title -->
 <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0px;line-height:1;">
-  अनुभूति
+  Anubhuti
 </h1>
 <p style="text-align: center; color: #48474cff; margin-bottom: 5px;line-height:1;">
-  Anubhuti: Featured artwork
+  A Feeling Beyond Words
 </p>
 
 
