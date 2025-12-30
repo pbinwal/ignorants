@@ -15,7 +15,7 @@ contributor: Jayesh Bhatt
 
   <p style="text-align: center; color: #000000; margin-top: 5px; font-family: 'Noto Sans Devanagari', Georgia, serif; font-size: 1.2em;">
   When nothing of me remains in me, <br>
-  Then all I am is gratefulness alone.
+  Then all I am— is gratefulness alone.
   </p>
   <!-- Custom image -->
   <div style="text-align: center; margin-bottom: 20px;">
