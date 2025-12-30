@@ -19,7 +19,7 @@ contributor: Jayesh Bhatt
   </p>
   <!-- Custom image -->
   <div style="text-align: center; margin-bottom: 20px;">
-    <img src="{{ site.baseurl }}/assets/images/grateful_edited.jpg"
+    <img src="{{ site.baseurl }}/assets/images/grateful.jpg"
          alt="Artwork" 
          style="max-width: 100%; height: auto; border-radius: 10px;">
   </div>
