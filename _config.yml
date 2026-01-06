@@ -50,6 +50,9 @@ collections:
   anubhuti:
     output: true
     permalink: /anubhuti/:title/
+  IgnoRants:
+    output: true
+    permalink: /ignorants/:title/
 
 
 # Exclude from processing.
