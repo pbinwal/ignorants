@@ -30,8 +30,8 @@ permalink: /contact/
   </p>
 
   <p style="text-align: center; font-size: 18px; font-weight: bold;">
-    <a href="mailto: pnbinwal@gmail.com" style="color: #1e6bb8; text-decoration: none;">
-      pnbinwal@gmail.com
+    <a href="mailto: ignorants.pb@gmail.com" style="color: #1e6bb8; text-decoration: none;">
+      ignorants.pb@gmail.com
     </a>
   </p>
 
