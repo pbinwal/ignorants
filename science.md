@@ -66,29 +66,27 @@ permalink: /science/
   Partly because 3 AM stands for <i>An Article A Month</i>— more or less.
 </p>
 
-<div style="max-width: 700px; margin: 0 auto;">
-  {% assign sorted_posts = site.science | sort: "date" | reverse %}
+{% assign sorted_posts = site.science | sort: "date" | reverse %}
 
-  {% for post in sorted_posts %}
-    <div class="science-post">
-      <!-- Post title -->
-      <h1>{{ post.title }}</h1>
+{% for post in sorted_posts %}
+  <div class="science-post">
+    <!-- Post title -->
+    <h1>{{ post.title }}</h1>
 
-      <!-- Post image -->
-      <div style="text-align: left;">
-        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-      </div>
-
-      <!-- Post excerpt + Read more -->
-      <div class="science-post-content">
-        {{ post.excerpt }} <a href="{{ post.url | relative_url }}" target="_blank" rel="noopener noreferrer">Read more</a>
-      </div>
-
-      <!-- Date at the end -->
-      <div class="science-post-date">
-        — {{ post.date | date: "%B %-d, %Y" }}
-      </div>
+    <!-- Post image -->
+    <div style="text-align: left;">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
     </div>
-  {% endfor %}
-</div>
+
+    <!-- Post excerpt + Read more -->
+    <div class="science-post-content">
+      {{ post.excerpt }} <a href="{{ post.url | relative_url }}" target="_blank" rel="noopener noreferrer">Read more</a>
+    </div>
+
+    <!-- Date at the end -->
+    <div class="science-post-date">
+      — {{ post.date | date: "%B %-d, %Y" }}
+    </div>
+  </div>
+{% endfor %}
 
