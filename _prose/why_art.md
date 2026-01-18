@@ -42,7 +42,7 @@ date: 2026-01-17
   <br>
   In a world rife with AI generated content, <em>you</em> my dear human hold something special. Housed within the hollow of your skull, is (I hope) a thinking, feeling <em>brain</em>, which, with all its idiosyncrasies, insecurities, longings and misgivings, yearns to express. The universe may be cold and indifferent to whatever you have to say, but through the very act of saying it, you become a rebel who has dared to seek meaning when there may be <em>none</em>.<br>
   <br>
-  In a world that burns, one often finds that it is the politician who holds the torch, and the rich who fan the flames. The intellectual tries to figure out who set it on fire, while the activist makes attempts to quell the flames. But it is the artist who gleans the cinders and smears them on her canvas– turning smoke and ash into art, and giving those who care to look, an inkling of what the world <em>could</em> have been.
+  In a world that burns, one often discovers that it is the politician who holds the torch, and the rich who fans the flames. The intellectual tries to figure out who set it on fire, while the activist makes attempts to quell the flames. But it is the artist who gleans the cinders and smears them on her canvas– turning smoke and ash into art, and giving those who care to look, an inkling of what the world <em>could</em> have been.
 
    <!-- Date at the bottom, right -->
   <p style="text-align: right; color: #000000ff; margin-top: 40px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
