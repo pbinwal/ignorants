@@ -33,7 +33,7 @@ permalink: /science/
   }
 
   .science-post-content {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 0;
   }
@@ -41,6 +41,11 @@ permalink: /science/
   .science-post-content p {
     margin: 0 0 0 0 !important;
     padding: 0 !important;
+    font-size: 20px !important;
+  }
+
+  .science-post-content a {
+    font-size: 20px;
   }
 
   .science-post-date {
@@ -65,6 +70,8 @@ permalink: /science/
   Partly because the name sounded like a really good one when it first occurred to me at 4 (and not 3) AM in the morning.
   Partly because 3 AM stands for <i>An Article A Month</i>— more or less.
 </p>
+
+<div style="border-top: 1px solid #e0e0e0; margin-bottom: 15px;"></div>
 
 {% assign sorted_posts = site.science | sort: "date" | reverse %}
 
