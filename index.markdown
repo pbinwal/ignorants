@@ -1,7 +1,7 @@
 ---
 layout: home
 title: IgnoRants- A Curation of science and art
-header_image:  /assets/images/home_header.png
+header_image: true
 ---
 
 # If you have stumbled upon this corner of the web— Welcome!
