@@ -4,8 +4,15 @@ title: Contact
 permalink: /contact/
 ---
 
+<style>
+  /* Remove main card background */
+  main {
+    background-color: transparent !important;
+  }
+</style>
+
 <!-- Page container -->
-<div style="background-color: transparent; color: #000000; min-height: 80vh; padding: 50px 20px; font-family: Georgia, serif;">
+<div style="background-color: rgba(255, 255, 255, 0.85); color: #000000; padding: 50px 20px; font-family: Georgia, serif; max-width: 900px; margin: 40px auto; border-radius: 20px;">
 
   <!-- Title -->
   <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 48px; margin-bottom: 20px;">

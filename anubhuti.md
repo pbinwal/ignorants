@@ -5,7 +5,32 @@ permalink: /anubhuti/
 ---
 
 <style>
-  /* Less space between art title and date */
+  /* Remove main card background */
+  main {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  main::before {
+    display: none !important;
+  }
+
+  /* Intro section */
+  .anubhuti-intro {
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* Each art as white card */
+  .anubhuti {
+    margin-bottom: 40px;
+    padding: 25px 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+  }
+
   .anubhuti h2 {
     margin-bottom: 4px;
   }
@@ -21,20 +46,17 @@ permalink: /anubhuti/
     margin-top: 0;
     margin-bottom: 0;
   }
-
-  /* More space between each art block */
-  .anubhuti {
-    margin-bottom: 35px;
-  }
 </style>
 
-<!-- Centered page title -->
-<h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0px;line-height:1;">
-  Anubhuti
-</h1>
-<p style="text-align: center; color: #48474cff; margin-bottom: 5px;line-height:1;">
-  A Feeling Beyond Words
-</p>
+<div class="anubhuti-intro">
+  <!-- Centered page title -->
+  <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0px;line-height:1;">
+    Anubhuti
+  </h1>
+  <p style="text-align: center; color: #48474cff; margin-bottom: 0;line-height:1;">
+    A Feeling Beyond Words
+  </p>
+</div>
 
 
 <!-- List all art -->

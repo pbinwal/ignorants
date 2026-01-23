@@ -5,15 +5,64 @@ permalink: /science/
 ---
 
 <style>
-  /* Styling for science posts */
-  .science-post {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #e0e0e0;
+  /* Remove main card background for science page */
+  main {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  main::before {
+    display: none !important;
   }
 
-  .science-post:last-child {
-    border-bottom: none;
+  /* Intro section with cream background */
+  .science-intro {
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .science-intro::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, 
+      rgba(232, 190, 145, 0.2), 
+      rgba(215, 175, 135, 0.18),
+      rgba(200, 160, 120, 0.15));
+    border-radius: 25px;
+    z-index: -1;
+    filter: blur(25px);
+  }
+
+  /* Styling for science posts - each gets its own cream card */
+  .science-post {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .science-post::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, 
+      rgba(232, 190, 145, 0.2), 
+      rgba(215, 175, 135, 0.18),
+      rgba(200, 160, 120, 0.15));
+    border-radius: 25px;
+    z-index: -1;
+    filter: blur(25px);
   }
 
   .science-post h1 {
@@ -57,21 +106,21 @@ permalink: /science/
   }
 </style>
 
-<!-- Centered page title -->
-<h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 50px; line-height:1;">
-  The 3AM Page
-</h1>
-<p style="text-align: left; font-weight:bold; font-size: 28px; color: #48474cff; margin-bottom: 5px; line-height:1;">
-  Why 3AM?
-</p>
+<div class="science-intro">
+  <!-- Centered page title -->
+  <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 50px; line-height:1;">
+    The 3AM Page
+  </h1>
+  <p style="text-align: left; font-weight:bold; font-size: 28px; color: #48474cff; margin-bottom: 5px; line-height:1;">
+    Why 3AM?
+  </p>
 
-<!-- Why 3AM text -->
-<p style="text-align: left; color: #48474cff; font-size: 20px; margin-bottom: 75px; line-height:1.5;">
-  Partly because the name sounded like a really good one when it first occurred to me at 4 (and not 3) AM in the morning.
-  Partly because 3 AM stands for <i>An Article A Month</i>— more or less.
-</p>
-
-<div style="border-top: 1px solid #e0e0e0; margin-bottom: 15px;"></div>
+  <!-- Why 3AM text -->
+  <p style="text-align: left; color: #48474cff; font-size: 20px; margin-bottom: 0; line-height:1.5;">
+    Partly because the name sounded like a really good one when it first occurred to me at 4 (and not 3) AM in the morning.
+    Partly because 3 AM stands for <i>An Article A Month</i>— more or less.
+  </p>
+</div>
 
 {% assign sorted_posts = site.science | sort: "date" | reverse %}
 

@@ -5,15 +5,31 @@ permalink: /ignorants/
 ---
 
 <style>
-  /* Styling for rants */
-  .rant {
-    margin-bottom: 15px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #e0e0e0;
+  /* Remove main card background */
+  main {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  main::before {
+    display: none !important;
   }
 
-  .rant:last-child {
-    border-bottom: none;
+  /* Intro section */
+  .rant-intro {
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  /* Each rant as white card */
+  .rant {
+    margin-bottom: 40px;
+    padding: 25px 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
   }
 
   .rant-content {
@@ -37,10 +53,11 @@ permalink: /ignorants/
   }
 </style>
 
-<!-- Centered page title -->
-<h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 40px; line-height:1;">
-  IgnoRants
-</h1>
+<div class="rant-intro">
+  <h1 style="font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0; line-height:1;">
+    IgnoRants
+  </h1>
+</div>
 
 <div style="max-width: 700px; margin: 0 auto;">
   {% for post in site.IgnoRants reversed %}
