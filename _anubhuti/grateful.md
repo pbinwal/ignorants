@@ -6,10 +6,10 @@ contributor: Jayesh Bhatt
 ---
 
 <!-- Full page styling -->
-<div style="background-color: #ffffff; color: #000000; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
+<div style="background-color: transparent; color: #000000; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
   <!-- Centered title -->
-  <h1 style="text-align: center; font-weight: bold; color: #000000; margin-bottom: 20px;">
+  <h1 style="text-align: center; font-weight: bold; color: #2c5f7d; margin-bottom: 20px;">
     {{ page.title }}
   </h1>
 
@@ -20,7 +20,8 @@ contributor: Jayesh Bhatt
   <!-- Custom image -->
   <div style="text-align: center; margin-bottom: 20px;">
     <img src="{{ site.baseurl }}/assets/images/grateful.jpg"
-         alt="Artwork" 
+         alt="Artwork"
+         loading="lazy"
          style="max-width: 100%; height: auto; border-radius: 10px;">
   </div>
 

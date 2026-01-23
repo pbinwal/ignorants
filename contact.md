@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <!-- Page container -->
-<div style="background-color: #ffffff; color: #000000; min-height: 80vh; padding: 50px 20px; font-family: Georgia, serif;">
+<div style="background-color: transparent; color: #000000; min-height: 80vh; padding: 50px 20px; font-family: Georgia, serif;">
 
   <!-- Title -->
   <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 48px; margin-bottom: 20px;">
@@ -16,12 +16,13 @@ permalink: /contact/
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="{{ '/assets/images/PB_photo.jpg' | relative_url }}"
        alt="Profile Photo"
+       loading="lazy"
        style="width: 220px; height: auto; border-radius: 12px;">
 </div>
 
 
 <!-- Email -->
-  <p style="text-align: center; font-size: 18px; color: #48474c; margin-bottom: 10px;">
+  <p style="text-align: center; font-size: 20px; color: #48474c; margin-bottom: 10px;">
     Priya Binwal
   </p>
   <!-- Email -->
