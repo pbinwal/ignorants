@@ -18,21 +18,59 @@ permalink: /prose/
   /* Intro section */
   .prose-intro {
     padding: 40px 30px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px;
+    border: none;
     margin-bottom: 40px;
+    position: relative;
+  }
+
+  .prose-intro::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 6px solid #3a3a3a;
+    pointer-events: none;
+    filter: url(#watercolor);
   }
 
   /* Each poem as white card */
   .prose-poem {
     margin-bottom: 40px;
     padding: 25px 30px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px;
+    border: none;
+    position: relative;
+  }
+
+  .prose-poem::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 6px solid #3a3a3a;
+    pointer-events: none;
+    filter: url(#watercolor);
   }
 
   .prose-poem h2 {
     margin-bottom: 4px;
+    color: #48474cff;
+  }
+
+  .prose-poem h2 a {
+    color: #48474cff;
+    text-decoration: none;
+  }
+
+  .prose-poem h2 a:hover {
+    text-decoration: underline;
   }
 
   .prose-poem .poem-date {
@@ -43,7 +81,7 @@ permalink: /prose/
 
 <div class="prose-intro">
   <!-- Centered page title -->
-  <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0px; line-height:1;">
+  <h1 style="text-align: center; font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 0px; line-height:1;">
     Flow
   </h1>
   <p style="text-align: center; color: #48474cff; margin-bottom: 0; line-height:1;">

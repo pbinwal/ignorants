@@ -12,10 +12,12 @@ permalink: /contact/
 </style>
 
 <!-- Page container -->
-<div style="background-color: rgba(255, 255, 255, 0.85); color: #000000; padding: 50px 20px; font-family: Georgia, serif; max-width: 900px; margin: 40px auto; border-radius: 20px;">
+<div style="background-color: rgba(255, 255, 255, 0.75); color: #000000; padding: 50px 20px; font-family: Georgia, serif; max-width: 900px; margin: 40px auto; border-radius: 0px; border: none; position: relative;">
+<div style="position: absolute; top: -4px; left: -4px; right: -4px; bottom: -4px; border: 6px solid #3a3a3a; pointer-events: none; filter: url(#watercolor);"></div>
+<div style="position: relative; z-index: 1;">
 
   <!-- Title -->
-  <h1 style="text-align: center; font-weight: bold; color: #000; font-size: 48px; margin-bottom: 20px;">
+  <h1 style="text-align: center; font-weight: bold; color: #a00000; font-size: 48px; margin-bottom: 20px;">
     Contact
   </h1>
 
@@ -43,4 +45,5 @@ permalink: /contact/
     </a>
   </p>
 
+</div>
 </div>

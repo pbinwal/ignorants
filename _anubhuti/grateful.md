@@ -9,7 +9,7 @@ contributor: Jayesh Bhatt
 <div style="background-color: transparent; color: #000000; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
   <!-- Centered title -->
-  <h1 style="text-align: center; font-weight: bold; color: #2c5f7d; margin-bottom: 20px;">
+  <h1 style="text-align: center; font-weight: bold; color: #a00000; margin-bottom: 20px;">
     {{ page.title }}
   </h1>
 

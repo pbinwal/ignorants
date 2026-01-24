@@ -18,18 +18,46 @@ permalink: /ignorants/
   /* Intro section */
   .rant-intro {
     padding: 40px 30px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px;
+    border: none;
     margin-bottom: 40px;
     text-align: center;
+    position: relative;
+  }
+
+  .rant-intro::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 6px solid #3a3a3a;
+    pointer-events: none;
+    filter: url(#watercolor);
   }
 
   /* Each rant as white card */
   .rant {
     margin-bottom: 40px;
     padding: 25px 30px;
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 0px;
+    border: none;
+    position: relative;
+  }
+
+  .rant::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 6px solid #3a3a3a;
+    pointer-events: none;
+    filter: url(#watercolor);
   }
 
   .rant-content {
@@ -54,7 +82,7 @@ permalink: /ignorants/
 </style>
 
 <div class="rant-intro">
-  <h1 style="font-weight: bold; color: #000; font-size: 56px; margin-bottom: 0; line-height:1;">
+  <h1 style="font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 0; line-height:1;">
     IgnoRants
   </h1>
 </div>
