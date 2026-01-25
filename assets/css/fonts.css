@@ -1,0 +1,23 @@
+/* Import EB Garamond and a beautiful script font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Montserrat:wght@700&display=swap');
+
+ .header-title {
+  font-family: 'Montserrat', 'Cardo', serif;
+    font-size: 5em;
+  color: #222222;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0.5em 0 0.2em 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+body, .content, .main-content, .rectangle, .post-content, .prose-content {
+  font-family: 'Cardo', serif !important;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .header-title {
+      font-size: 6em !important;
+    }
+}

@@ -8,7 +8,7 @@ date: 2018-10-01
 <div style="background-color: transparent; color: #000000ff; min-height: 100vh; padding: 50px 20px; font-family: 'Noto Sans Devanagari', Georgia, serif;">
 
   <!-- Centered poem title -->
-  <h1 style="text-align: center; font-weight: bold; color: #a00000; margin-bottom: 40px; font-size: 36px;">
+  <h1 style="text-align: center; font-weight: bold; color: #700000; margin-bottom: 40px; font-size: 36px;">
     {{ page.title }}
   </h1>
 

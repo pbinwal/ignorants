@@ -1,3 +1,6 @@
+  .header-title {
+    font-size: 80px !important;
+  }
 @media screen and (max-width: 1024px) {
   /* Bigger header image */
  

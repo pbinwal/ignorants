@@ -18,14 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IgnoRants — A Curation of Science and Art
+title: Priya Binwal
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  IgnoRants: A Curation of Science and Art by Priya Binwal
 
 # GitHub Pages settings
 # Set your repository name as baseurl if hosted at https://username.github.io/repo-name/
-baseurl: "/ignorants" # <-- use your repo name here
+baseurl: "/priyabinwal" # <-- use your repo name here
 url: "https://pbinwal.github.io" # <-- your GitHub Pages domain
 
 twitter_username: jekyllrb

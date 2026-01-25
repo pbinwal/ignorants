@@ -18,7 +18,7 @@ permalink: /anubhuti/
   /* Intro section */
   .anubhuti-intro {
     padding: 40px 30px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     margin-bottom: 40px;
@@ -39,12 +39,14 @@ permalink: /anubhuti/
 
   /* Each art as white card */
   .anubhuti {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding: 25px 30px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     position: relative;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
   }
 
   .anubhuti::before {
@@ -86,9 +88,9 @@ permalink: /anubhuti/
   }
 </style>
 
-<div class="anubhuti-intro">
+<div class="anubhuti-intro straight-border">
   <!-- Centered page title -->
-  <h1 style="text-align: center; font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 0px;line-height:1;">
+  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0px; line-height:1; letter-spacing: 0.04em;">
     Anubhuti
   </h1>
   <p style="text-align: center; color: #48474cff; margin-bottom: 0;line-height:1;">
@@ -102,8 +104,8 @@ permalink: /anubhuti/
 
 {% for art in arts %}
 
-<div class="anubhuti">
-  <h2><a href="{{ site.baseurl }}{{ art.url }}">{{ art.title }}</a></h2>
+<div class="anubhuti straight-border">
+  <h2 style="font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; letter-spacing: 0.04em; font-size: 1.1em;"><a href="{{ site.baseurl }}{{ art.url }}">{{ art.title }}</a></h2>
   {% if art.contributor %}
   <p class="art-contributor">Contributor: {{ art.contributor }}</p>
   {% endif %}

@@ -19,6 +19,7 @@ permalink: /ignorants/
   .rant-intro {
     padding: 40px 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     margin-bottom: 40px;
@@ -40,12 +41,15 @@ permalink: /ignorants/
 
   /* Each rant as white card */
   .rant {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding: 25px 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     position: relative;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
   }
 
   .rant::before {
@@ -81,15 +85,16 @@ permalink: /ignorants/
   }
 </style>
 
-<div class="rant-intro">
-  <h1 style="font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 0; line-height:1;">
+<div class="rant-intro straight-border">
+  <h1 style="font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0; line-height:1; letter-spacing: 0.04em;">
     IgnoRants
   </h1>
 </div>
 
 <div style="max-width: 700px; margin: 0 auto;">
-  {% for post in site.IgnoRants reversed %}
-    <div class="rant">
+  {% assign ignorants_posts = site.IgnoRants | sort: "date" | reverse %}
+  {% for post in ignorants_posts %}
+    <div class="rant straight-border">
       <div class="rant-content">
         {{ post.content }}
       </div>

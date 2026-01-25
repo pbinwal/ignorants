@@ -19,6 +19,7 @@ permalink: /prose/
   .prose-intro {
     padding: 40px 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     margin-bottom: 40px;
@@ -39,12 +40,15 @@ permalink: /prose/
 
   /* Each poem as white card */
   .prose-poem {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding: 25px 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     position: relative;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
   }
 
   .prose-poem::before {
@@ -79,9 +83,9 @@ permalink: /prose/
   }
 </style>
 
-<div class="prose-intro">
+<div class="prose-intro straight-border">
   <!-- Centered page title -->
-  <h1 style="text-align: center; font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 0px; line-height:1;">
+  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 0px; line-height:1; letter-spacing: 0.04em;">
     Flow
   </h1>
   <p style="text-align: center; color: #48474cff; margin-bottom: 0; line-height:1;">
@@ -93,8 +97,8 @@ permalink: /prose/
 {% assign poems = site.prose | sort: "date" | reverse %}
 
 {% for poem in poems %}
-<div class="prose-poem">
-  <h2><a href="{{ poem.url | relative_url }}">{{ poem.title }}</a></h2>
+<div class="prose-poem straight-border">
+  <h2 style="font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; letter-spacing: 0.04em; font-size: 1.1em;"><a href="{{ poem.url | relative_url }}">{{ poem.title }}</a></h2>
   <p class="poem-date">{{ poem.date | date: "%d %B %Y" }}</p>
 </div>
 {% endfor %}

@@ -35,6 +35,7 @@
     </defs>
   </svg>
 
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css">
   <style>
   /* Watercolor Background */
   body {
@@ -66,6 +67,12 @@
   .watercolor-border {
     filter: url(#watercolor);
   }
+    /* Thin straight line border option */
+    .straight-border {
+      border: 2px solid #cccccc !important;
+      filter: none !important;
+      border-radius: 0 !important;
+    }
 
   body::before {
     content: "";
@@ -74,7 +81,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.75);
     pointer-events: none;
     z-index: -1;
   }
@@ -117,6 +124,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Cardo', serif !important;
     transition: background-color 0.3s ease;
   }
 
@@ -131,11 +139,11 @@
     margin: auto;
     color: #2c2c2c;
     background-color: transparent;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'EB Garamond', Georgia, serif;
     line-height: 1.8;
     border-radius: 0px;
     border: none;
-    margin-top: 40px;
+    margin-top: 18px;
     margin-bottom: 40px;
     position: relative;
   }
@@ -143,7 +151,7 @@
   main h1 {
     font-family: Georgia, "Times New Roman", serif;
     line-height: 1.6;
-    color: #a00000;
+    color: #700000;
     text-shadow: 2px 2px 8px rgba(160, 0, 0, 0.2);
     position: relative;
   }
@@ -198,6 +206,38 @@
     line-height: 1.8;
     color: #333;
   }
+    /* Default: watercolor border effect */
+    .prose-poem.watercolor-border::before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      right: -4px;
+      bottom: -4px;
+      border: 6px solid #3a3a3a;
+      pointer-events: none;
+      filter: url(#watercolor);
+    }
+
+    /* Option: thin straight border */
+    .prose-poem.straight-border::before {
+      display: none !important;
+    }
+    .anubhuti.straight-border::before {
+      display: none !important;
+    }
+    .rant.straight-border::before {
+      display: none !important;
+    }
+    .prose-intro.straight-border::before {
+      display: none !important;
+    }
+    .anubhuti-intro.straight-border::before {
+      display: none !important;
+    }
+    .rant-intro.straight-border::before {
+      display: none !important;
+    }
 
   .prose-poem h2 {
     margin-bottom: 5px;
@@ -214,7 +254,7 @@
   /* Desktop-only font sizes */
   @media screen and (min-width: 769px) {
     main {
-      font-size: 18px;
+      font-size: 19px;
     }
 
     main h1 {
@@ -276,9 +316,8 @@
 <body>
   <!-- Header section -->
   <header>
-    {% if page.header_image %}
-      <img src="{{ site.baseurl }}/assets/images/home_header_new.png" alt="Header Image" class="header-logo header-logo-desktop">
-      <img src="{{ site.baseurl }}/assets/images/home_header_mobile_new.png" alt="Header Image" class="header-logo header-logo-mobile">
+    {% if page.url == '/' or page.url == '/index.html' %}
+      <h1 class="header-title">Priya Binwal</h1>
     {% endif %}
   </header>
 

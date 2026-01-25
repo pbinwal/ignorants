@@ -19,6 +19,7 @@ permalink: /science/
   .science-intro {
     padding: 40px 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
     border-radius: 0px;
     border: none;
     margin-bottom: 40px;
@@ -26,38 +27,19 @@ permalink: /science/
   }
 
   .science-intro::before {
-    content: "";
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    border: 6px solid #3a3a3a;
-    pointer-events: none;
-    filter: url(#watercolor);
+    display: none !important;
   }
 
-  .science-intro::after {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: linear-gradient(135deg, 
-      rgba(232, 190, 145, 0.2), 
-      rgba(215, 175, 135, 0.18),
-      rgba(200, 160, 120, 0.15));
-    border-radius: 25px;
-    z-index: -1;
-    filter: blur(25px);
-  }
+
 
   /* Styling for science posts - each gets its own cream card */
   .science-post {
     margin-bottom: 40px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 21px;
     border-radius: 0px;
     border: none;
     position: relative;
@@ -67,32 +49,10 @@ permalink: /science/
   }
 
   .science-post::after {
-    content: "";
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    border: 6px solid #3a3a3a;
-    pointer-events: none;
-    filter: url(#watercolor);
+    display: none !important;
   }
 
-  .science-post::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: linear-gradient(135deg, 
-      rgba(232, 190, 145, 0.2), 
-      rgba(215, 175, 135, 0.18),
-      rgba(200, 160, 120, 0.15));
-    border-radius: 25px;
-    z-index: -1;
-    filter: blur(25px);
-  }
+
 
   .science-post-image {
     flex-shrink: 0;
@@ -105,11 +65,13 @@ permalink: /science/
 
   .science-post h1 {
     font-size: 32px;
-    font-weight: bold;
+    font-family: 'Montserrat', 'Cardo', serif;
+    font-weight: 700;
     margin-bottom: 15px;
     margin-top: 0;
     color: #48474cff;
     line-height: 1.3;
+    letter-spacing: 0.04em;
   }
 
   .science-post img {
@@ -156,9 +118,9 @@ permalink: /science/
   }
 </style>
 
-<div class="science-intro">
+<div class="science-intro straight-border">
   <!-- Centered page title -->
-  <h1 style="text-align: center; font-weight: bold; color: #a00000; font-size: 56px; margin-bottom: 50px; line-height:1;">
+  <h1 style="text-align: center; font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; color: #700000; font-size: 56px; margin-bottom: 50px; line-height:1; letter-spacing: 0.04em;">
     The 3AM Page
   </h1>
   <p style="text-align: left; font-weight:bold; font-size: 28px; color: #48474cff; margin-bottom: 5px; line-height:1;">
@@ -175,7 +137,7 @@ permalink: /science/
 {% assign sorted_posts = site.science | sort: "date" | reverse %}
 
 {% for post in sorted_posts %}
-  <div class="science-post">
+  <div class="science-post straight-border">
     <!-- Post image on left -->
     <div class="science-post-image">
       <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
@@ -184,7 +146,7 @@ permalink: /science/
     <!-- Post text on right -->
     <div class="science-post-text">
       <!-- Post title -->
-      <h1>{{ post.title }}</h1>
+      <h1 style="font-family: 'Montserrat', 'Cardo', serif; font-weight: 700; letter-spacing: 0.04em; font-size: 1.1em;">{{ post.title }}</h1>
 
       <!-- Post excerpt + Read more -->
       <div class="science-post-content">
