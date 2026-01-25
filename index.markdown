@@ -1,6 +1,6 @@
 ---
 layout: home
-title: IgnoRants- A Curation of science and art
+title: A Curation of science and art
 header_image: true
 ---
 
